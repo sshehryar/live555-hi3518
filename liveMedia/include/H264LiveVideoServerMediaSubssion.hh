@@ -12,6 +12,7 @@
 #include "H264VideoFileServerMediaSubsession.hh"
 
 
+// 继承H264VideoFileServerMediaSubsession类，实现直接读取H264流
 class H264LiveVideoServerMediaSubssion : public H264VideoFileServerMediaSubsession
 {
 public:
